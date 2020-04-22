@@ -1,39 +1,30 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+The Blighters - Milestone Project 
 
-Welcome avateodev,
+  Description
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+  This project is about a professional wrestling tag team that I am a part of and it's meant to help us promote our tag team across the internet in order to get more bookings.
+  The website consists of three main pages, a Home page, a Gallery and a Contact Us page.
+  It has a vintage design as the tag-team's gimmick is that of a gang from the Industrial Era in London 1886
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+  Features
 
-`python3 -m http.server`
+  The Home page it is meant to provide a description consisting of two paragraphs of who we are and our goals within the profesisonal wrestling business.
+  The second page, the Gallery page contains eight pictures from our matches, our members and our tag-team's logo.
+  The third page is a contact page that is meant to give wrestling promoters a way to contact us and books us for their shows.
+  At the center of the page there is a logo image with our gang that will give users an idea of who we are.
+  There is also a footer with social media links so that our social media profiles can be accessed and people can look at videos or different pictures from our promo shoots.
 
-A blue button should appear to click: *Make Public*,
 
-Another blue button should appear to click: *Open Browser*.
+  Features to implement
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+  The mobile version still needs work as I found styling for mobile devices quite challenging and was running out of time to submit my project.
+  The social media links are not linked to our social media profiles as we don't yet have a social media presence as a tag team.
+  The contact form is a dummy one and not functional so no messages can be sent from the contact form as we haven't disscused having a website for out tag team. It was just my idea for this project that I would create one.
 
-A blue button should appear to click: *Make Public*,
 
-Another blue button should appear to click: *Open Browser*.
+  Content & Credits
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+  Love Running project was my inspiration for this project.
+  I know there is a lot of work to be done but I found CSS a bit challenging.
+  The images were taking from one of my team mates social media and the background image from Google Images.
