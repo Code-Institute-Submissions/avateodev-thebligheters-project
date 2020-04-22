@@ -38,9 +38,9 @@
 
 <section class="form-section">
      
-     <form class="signup-form" action="https://formdump.codeinstitute.net/ " method="post">
+     <form class="signup-form" action="#" method="post">
     
-        <h2>Contact Us</h2>
+        <h2 class="form-title">Contact Us</h2>
         
         <label for="fname">First Name</label>
         <input class="text-input" type="text" name="first_name" id="fname" required>
@@ -48,8 +48,11 @@
        <input class="text-input" type="text" name="last_name" id="lname" required>
        <label for="email">Email Address</label>
        <input class="text-input" type="email" name="email_address" id="email" required>
-        <label for="exampleFormControlTextarea1">Message</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+     <div class="form-group">
+    <label for="exampleFormControlTextarea1">Message</label>
+    <textarea class="form-control" id="textarea" rows="5"></textarea>
+  </div>
+    
        <input class="button" type="submit" value="Submit">
        
      </form>
