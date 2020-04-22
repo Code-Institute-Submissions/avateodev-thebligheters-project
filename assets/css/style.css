@@ -12,6 +12,7 @@ body {
     font-family: 'Lobster', cursive , sans-serif;
     color: #000000;
     background: url(https://dslv9ilpbe7p1.cloudfront.net/xNQHH3rUP-Zh1aWrkhKdIg_store_header_image);
+    background-size: cover;
 }
 
 h2 {
@@ -43,10 +44,11 @@ h2 {
   font-size: 30px;
   list-style-type: none;
   letter-spacing: 4px;
+  margin-top: 20px;
 
 }
 #logo, #menu{
-  line-height: 75px;
+  line-height: 90px;
 
 }
 #menu li{
@@ -161,7 +163,7 @@ hr {
 
   background: url(https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-0/p640x640/85029572_10217364691729280_7345629033876422656_o.jpg?_nc_cat=100&_nc_sid=dd9801&_nc_ohc=_0UEih9qtjUAX9iG8Mh&_nc_ht=scontent-lht6-1.xx&_nc_tp=6&oh=2eb9b3400d5007174925d3896a8cd296&oe=5EC6E706) no-repeat center;
    height: 100%;
-   margin-right: 260px;
+   margin-right: 200px;
    margin-top: 60px;
   
   
@@ -182,6 +184,7 @@ footer{
 .social-links{
 
   text-align: center;
+ 
 
 }
 
@@ -193,7 +196,7 @@ footer{
 
 .social-links i {
 
-  font-size: 180%;
+  font-size: 280%;
   margin: 0 auto;
   padding: 5%;
   color: #000000;
@@ -272,3 +275,125 @@ footer{
 
       margin-bottom: 20px;
   }
+
+
+  @media screen and (max-width: 1393px ) {
+
+
+ 
+  #main-section{
+    width: 65%;
+    height: 500px;
+    margin: 0 auto;
+
+  }
+
+
+#welcome{
+
+  padding: 30px 0;
+  margin-top: 0;
+
+
+}
+
+#left-content, #right-content{
+
+  width: 100%;
+  float: left;
+  padding: 0;
+
+
+}
+
+#center-content{
+  clear: both;
+  width: 100%;
+  float: left;
+  padding: 0;
+
+}
+
+
+hr {
+  display: none;
+
+}
+
+}
+
+@media screen and (max-width: 943px) {
+
+  #menu {
+    clear: left;
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    line-height: 25px;
+    
+
+    
+
+  }
+
+  
+
+  #main-section {
+    
+    width: 90%;
+    height: 1200px;
+    margin: 0 auto;
+    
+
+  }
+
+  .left-content-heading, .right-content-heading {
+
+    width: 100%;
+    margin-top: 100px;
+    
+   
+
+  }
+
+  .left-content-heading h2, .right-content-heading h2 {
+
+    width: 100%;
+    text-align: center;  
+
+  }
+
+  .left-content-heading p, .right-content-heading p {
+
+    text-align: center;
+    padding: 0 20px 0 20px;
+    
+
+  }
+
+  #center-content{
+  clear: both;
+  width: 100%;
+  float: left;
+  padding: 0;
+  border: 0;
+
+}
+
+  #photos{
+
+    column-count: 1;
+    margin:0;
+
+  }
+}
+
+@media screen and (max-width: 400px) {
+
+  #photos{
+
+    column-count: 1;
+    
+    
+  }
+}
